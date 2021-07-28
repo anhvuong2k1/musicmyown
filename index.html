@@ -1,0 +1,126 @@
+<!-- start code 22/7/2021 -->
+<!-- Copyright belong to Ho Ngoc Anh Vuong -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="https://i.imgur.com/aAVF3qx.png" property="og:image">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music My Own</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/reponsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://i.imgur.com/aAVF3qx.png" rel="shortcut icon" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/icons/fontawesome-free-5.15.3-web/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="container_left">
+            <a href="#" class="container_left-nav">
+                <img class="container_left-logo" src="./img/logo.png" alt="">
+                <h1 class="container_left-title"><b>Music My Own</b></h1>
+            </a>
+            <hr class="hr3">
+            <div class="container_left-info">
+                <h4 class="info_title">" Mucsic My Own "</h4>
+                <p class="info_story">một website nhạc cover của admin, <br> được code ra để lưu lại kỉ niệm, chúc <br>các bạn một buổi nghe nhạc vui vẻ.. </p>
+            </div>
+            <div class="social_media">
+                <a href="https://www.facebook.com/vuongdz111/"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/zuong01x3/"><i class="fab fa-instagram"></i></a>
+                <a href="https://github.com/anhvuong2k1"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+        <hr class="hr1">
+        <div class="container_mid">
+            <div class="nav_main">
+                <div id="showin4" class="showin4">
+                    <i id="clear1" class="fas fa-times"></i>
+                </div>
+                <div id="showother" class="showother">
+                    <i id="clear2" class="fas fa-times"></i>
+                </div>
+                <i id="showUser" class="fas fa-user"></i>
+                <i id="showList" class="fas fa-bars"></i>
+            </div>
+
+            <img src="" alt="" class="container_mid-img">
+
+            <div class="mid_h2">
+                <h2 class="container_mid-title"></h2>
+            </div>
+
+            <!-- control -->
+            <div class="container_mid-control">
+                <ul class="control-list">
+                    <li id="repeat" class="control-list_item btn"><i class="fas fa-redo"></i></li>
+                    <li id="backsong" class="control-list_item btn"><i class="fas fa-fast-backward"></i></li>
+                    <li class="control-list_item size btn">
+                        <i id="play" class="fas fa-play-circle"></i>
+                        <i id="pause" class="fas fa-pause-circle"></i>
+                    </li>
+                    <li id="nextsong" class="control-list_item btn"><i class="fas fa-fast-forward"></i></li>
+                    <li id="Random" class="control-list_item btn"><i class="fas fa-random"></i></li>
+                </ul>
+            </div>
+
+            <input id="progress" class="progress" type="range" value="0" step="1" min="0" max="100">
+            <audio id="audio" src=""></audio>
+        </div>
+        <hr class="hr2">
+        <div class="container_right">
+            <!-- search -->
+            <div class="search">
+                <i class="fas fa-search"></i>
+                <input type="text" placeholder="Tìm kiếm trong Music My Own...">
+            </div>
+            <!-- tab ui -->
+            <div class="tab_ui">
+                <!-- year -->
+                <div class="list_years">
+                    <div class="years active">
+                        <i class="fas fa-headphones"></i>List Music
+                    </div>
+                    <div class="years">
+                        <i class="fas fa-images"></i>Images</div>
+                    <div class="line"></div>
+                </div>
+                <!-- music -->
+                <div class="list_music">
+                    <!-- // -->
+                    <div id="mymusic" class="list_songs active"></div>
+                    <div id="MyAlbum" class="list_songs">
+                        <i id="previmg" class="fas aaa fa-arrow-left"></i>
+                        <div class="SetList">
+                            <h6 class="title_Album">Một số ảnh deep có lẽ bạn sẽ thích..!?</h6>
+                            <div class="imgAlbum">
+                                <img src="./img/cats/anh1.jpeg" alt="" class="list_albumimg">
+                                <img src="./img/cats/anh3.jpeg" alt="" class="list_albumimg">
+                                <img src="./img/cats/anh4.jpeg" alt="" class="list_albumimg">
+                                <img src="./img/cats/anh5.jpeg" alt="" class="list_albumimg">
+                                <img src="./img/cats/anh6.jpeg" alt="" class="list_albumimg">
+                                <img src="./img/cats/anh7.jpeg" alt="" class="list_albumimg">
+                                <img src="./img/cats/anh8.jpeg" alt="" class="list_albumimg">
+                                <img src="./img/cats/anh9.jpeg" alt="" class="list_albumimg">
+                                <img src="./img/cats/anh11.jpeg" alt="" class="list_albumimg">
+                            </div>
+                        </div>
+                        <i id="nextimg" class="fas aaa fa-arrow-right"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="./assets/js/tabui.js"></script>
+    <script src="./assets/js/music.js"></script>
+    <script src="./assets/js/slide.js"></script>
+    <script src="./assets/js/showlist.js"></script>
+</body>
+</html>

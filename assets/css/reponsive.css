@@ -1,0 +1,870 @@
+/*
+
+
+
+                         R E P O N S I V E
+
+
+*/
+
+/* samsung all */
+@media only screen and (max-width: 360px) {
+    .hr3 {
+        display: none;
+    }
+
+    .container {
+        left: 0.9rem;
+        top: 3rem;
+        width: 92%;
+        height: 82vh;
+    }
+
+    .container_mid {
+        left: 11px;
+        width: 308px;
+        height: 78vh;
+        top: 12px;
+    }
+
+    .nav_main {
+        display: block;
+    }
+
+    .fa-user {
+        position: absolute;
+        left: 16px;
+        top: 9px;
+    }
+
+    .fa-bars {
+        position: absolute;
+        right: 16px;
+        top: 10px;
+    }
+
+    .container_mid-img {
+        width: 80%;
+        left: 31px;
+        top: 68px;
+    }
+
+    .mid_h2 {
+        left: 19px;
+        top: 338px;
+    }
+
+    .container_left-logo {
+        width: 18%;
+    }
+
+    .container_left-title {
+        top: 16px;
+    }
+
+    .container_mid-title {
+        font-size: 20px;
+    }
+
+    .container_mid-control {
+        left: 23px;
+        top: 78%;
+    }
+
+    .container_mid .progress {
+        left: 22px;
+        bottom: 32px;
+    }
+
+    .showin4,
+    .showother {
+        width: 308px;
+        height: 81vh;
+        border-radius: 16px;
+    }
+
+    .container_right {
+        display: none;
+        width: 339px;
+        top: 76px;
+        z-index: 22222;
+        background: none;
+    }
+    
+    .container_left {
+        display: none;
+        z-index: 222222;
+        width: 330px;
+        height: 64vh;
+        top: 82px;
+        left: -2px;
+        background: none;
+    }
+
+    .container_left-info {
+        top: 122px;
+        left: 19px;
+    }
+
+    .tab_ui {
+        top: 35px;
+        width: 94%;
+        left: 39px;
+    }
+
+    .SetList {
+        margin-left: 26px;
+    }
+
+    .social_media {
+        left: 53px;
+    }
+
+    #clear1 {
+        position: absolute;
+        left: -13px;
+        top: 7px;
+    }
+
+    #clear2 {
+        position: absolute;
+        right: 12px;
+        top: 7px;
+    }
+
+    .search {
+        display: none;
+    }
+
+    .aaa {
+        top: 165px;
+    }
+
+    .aaa:hover {
+        top: 163px;
+    }
+
+    .fa-arrow-right {
+        right: 14px;
+    }
+
+    .fa-arrow-left {
+        left: 13px;
+    }
+
+    .title_Album {
+        display: none;
+    }
+}
+
+/* ip 6/7/8 */
+@media only screen and (min-width: 361px) and (max-width: 375px) {
+    .hr3 {
+        display: none;
+    }
+
+    .container {
+        left: 0.9rem;
+        top: 6rem;
+        width: 92%;
+        height: 70vh;
+    }
+
+    .container_mid {
+        left: 11px;
+        width: 322px;
+        height: 67vh;
+        top: 9px;
+    }
+
+    .nav_main {
+        display: block;
+    }
+
+    .fa-user {
+        position: absolute;
+        left: 16px;
+        top: 9px;
+    }
+
+    .fa-bars {
+        position: absolute;
+        right: 16px;
+        top: 10px;
+    }
+
+    .container_mid-img {
+        width: 70%;
+        left: 45px;
+        top: 56px;
+    }
+
+    .mid_h2 {
+        left: 19px;
+        top: 294px;
+    }
+
+    .container_left-logo {
+        width: 18%;
+    }
+
+    .container_left-title {
+        top: 16px;
+    }
+
+    .container_mid-title {
+        font-size: 20px;
+    }
+
+    .container_mid-control {
+        left: 23px;
+    }
+
+    .container_mid .progress {
+        left: 22px;
+        bottom: 29px;
+    }
+
+    .showin4,
+    .showother {
+        width: 322px;
+        height: 70vh;
+        border-radius: 16px;
+    }
+
+    .container_right {
+        display: none;
+        width: 339px;
+        top: 60px;
+        z-index: 22222;
+        background: none;
+    }
+    
+    .container_left {
+        display: none;
+        z-index: 222222;
+        width: 330px;
+        height: 64vh;
+        top: 68px;
+        left: 4px;
+        background: none;
+    }
+
+    .container_left-info {
+        top: 122px;
+        left: 19px;
+    }
+
+    .tab_ui {
+        top: 24px;
+        width: 96%;
+        left: 29px;
+    }
+
+    .list_music {
+        top: 2px;
+    }
+    
+    .SetList {
+        margin-left: 29px;
+        top: -22px;
+    }
+
+    .social_media {
+        left: 53px;
+        bottom: 47px;
+    }
+
+    #clear1 {
+        position: absolute;
+        left: -13px;
+        top: 7px;
+    }
+
+    #clear2 {
+        position: absolute;
+        right: 14px;
+        top: 9px;
+    }
+
+    .search {
+        display: none;
+    }
+
+    .aaa {
+        top: 149px;
+    }
+
+    .aaa:hover {
+        top: 147px;
+    }
+
+    .fa-arrow-left {
+        left: 10px;
+    }
+
+    .fa-arrow-right {
+        right: 5px;
+    }
+
+    .title_Album {
+        display: none;
+    }
+}
+
+/* ip 6/7/8/plus */
+@media only screen and (min-width: 376px) and (max-width: 414px) { 
+
+    .hr3 {
+        display: none;
+    }
+
+    .container {
+        left: 17px;
+        top: 3rem;
+        width: 92%;
+        height: 86vh;
+    }
+
+    .container_mid {
+        left: 11px;
+        width: 358px;
+        height: 83vh;
+        top: 11px;
+    }
+
+    .nav_main {
+        display: block;
+    }
+
+    .fa-user {
+        position: absolute;
+        left: 16px;
+        top: 9px;
+    }
+
+    .fa-bars {
+        position: absolute;
+        right: 16px;
+        top: 10px;
+    }
+
+    .container_mid-img {
+        width: 80%;
+        left: 37px;
+        top: 68px;
+    }
+
+    .mid_h2 {
+        left: 21px;
+        top: 400px;
+    }
+
+    .container_left-logo {
+        width: 18%;
+    }
+
+    .container_left-title {
+        top: 16px;
+    }
+
+    .container_mid-title {
+        font-size: 20px;
+    }
+
+    .container_mid-control {
+        left: 26px;
+        top: 77%;
+    }
+
+    .container_mid .progress {
+        left: 26px;
+        bottom: 49px;
+    }
+
+    .showin4,
+    .showother {
+        width: 358px;
+        height: 86vh;
+        border-radius: 16px;
+    }
+
+    .container_right {
+        display: none;
+        width: 339px;
+        top: 76px;
+        z-index: 22222;
+        background: none;
+    }
+    
+    .container_left {
+        display: none;
+        z-index: 222222;
+        width: 330px;
+        height: 64vh;
+        top: 113px;
+        left: 22px;
+        background: none;
+    }
+
+    .container_left-info {
+        top: 122px;
+        left: 19px;
+    }
+
+    .tab_ui {
+        top: 59px;
+        width: 100%;
+        left: 2px;
+    }
+
+    .social_media {
+        left: 53px;
+    }
+
+    #clear1 {
+        position: absolute;
+        left: -13px;
+        top: 7px;
+    }
+
+    #clear2 {
+        position: absolute;
+        right: 14px;
+        top: 9px;
+    }
+
+    .search {
+        display: none;
+    }
+
+    .aaa {
+        top: 195px;
+    }
+
+    .aaa:hover {
+        top: 193px;
+    }
+
+    .title_Album {
+        display: none;
+    }
+}
+ 
+/* ipad */
+@media only screen and (min-width: 415px) and (max-width: 768px) {
+    .hr1,
+    .hr2,
+    .hr3 {
+        display: none;
+    }
+
+    .container {
+        left: 32px;
+        top: 4rem;
+        width: 92%;
+        height: 87vh;
+    }
+
+    .container_left {
+        display: none;
+        z-index: 22222;
+        width: 78%;
+        top: 114px;
+        background: none;
+        height: 57vh;
+        left: 78px;
+    }
+
+    .showin4,
+    .showother {
+        width: 642px;
+        height: 84vh;
+        border-radius: 16px;
+    }
+
+    .container_left-nav {
+        left: 88px;
+        top: 79px;
+    }
+
+    .container_left-info {
+        left: 24px;
+    }
+
+    .container_left-title {
+        font-size: 28px;
+    }
+
+    .social_media {     
+        left: 78px;
+    }
+
+    .info_title {
+        font-size: 31px;
+    }
+
+    .info_story {
+        left: 57px;
+        font-size: 25px;
+    }
+
+    .social_media .fa-facebook,
+    .social_media .fa-instagram,
+    .social_media .fa-github {
+        font-size: 50px;
+    }
+
+    .container_mid {
+        width: 91%;
+        left: 2rem;
+        height: 82vh;
+    }
+
+    .container_right {
+        display: none;
+        z-index: 22222;
+        width: 89%;
+        background: none;
+        height: 65vh;
+        top: 94px;
+    }
+
+    .search {
+        display: none;
+    }
+
+    .search .fa-search {
+        background: #9797972e; 
+        padding: 20px; 
+        border-radius: 50%;
+        top: -52px;
+        left: 10px;
+    }
+
+    .tab_ui {
+        top: 63px;
+        left: 15px;
+    }
+
+    .title_Album {
+        display: none;
+    }
+
+    .list_music {
+        top: 37px;
+    }
+
+    .list_albumimg {
+        width: 305px;
+    }
+
+    .aaa {
+        top: 252px;
+        padding: 18px;
+    }
+
+    .aaa:hover {
+        top: 250px;
+    }
+
+    .fa-arrow-right {
+        right: 98px;
+    }
+
+    .fa-arrow-left {
+        left: 93px;
+    }
+
+    .imgAlbum {
+        top: 91px;
+    }
+
+    .SetList {
+        width: 55%;
+        left: 88px;
+    }
+
+    .search input[type="text"] {
+        display: none;
+    }
+
+    .nav_main {
+        display: block;
+        font-size: 34px;
+    }
+
+    .fa-bars {
+        right: -555px;
+        top: 20px;
+        position: relative;
+    }
+
+    .fa-user {
+        top: 20px;
+        left: 30px;
+        position: absolute;
+    }
+
+    .container_mid-img {
+        width: 73%;
+        top: 77px;
+        left: 89px;
+    }
+
+    .mid_h2 {
+        top: 528px;
+        left: 38px;
+    }
+
+    .container_mid-title,
+    .control-list_item {
+        font-size:  31px;
+    }
+
+    .container_mid-control {
+        top: 79%;
+        left: 41px;
+    }
+
+    .control-list .size {
+        left: 190px;
+        font-size: 78px;
+        top: -21px;
+    }
+
+    #backsong {
+        position: absolute;
+        left: 105px;
+    }
+
+    #nextsong {
+        position: absolute;
+        right: 105px;
+    }
+
+    #clear1 {
+        position: absolute;
+        top: 20px;
+    }
+
+    #clear2 {
+        position: absolute;
+        top: 20px;
+    }
+}
+
+/* ipad pro */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .hr1,
+    .hr2,
+    .hr3 {
+        display: none;
+    }
+
+    .container {
+        left: 44px;
+        top: 5rem;
+        width: 92%;
+        height: 87vh;
+    }
+
+    .container_left {
+        display: none;
+        z-index: 22222;
+        width: 59%;
+        top: 166px;
+        background: none;
+        height: 57vh;
+        left: 191px;
+    }
+
+    .showin4,
+    .showother {
+        width: 876px;
+        height: 85vh;
+        border-radius: 16px;
+    }
+
+    .container_left-nav {
+        left: 88px;
+        top: 79px;
+    }
+
+    .container_left-info {
+        left: 24px;
+        top: 298px;
+    }
+
+    .list_years .years {
+        font-size: 26px;
+    }
+
+    .container_left-title {
+        font-size: 28px;
+    }
+
+    .social_media {     
+        left: 78px;
+    }
+
+    .info_title {
+        font-size: 31px;
+    }
+
+    .info_story {
+        left: 57px;
+        font-size: 25px;
+    }
+
+    .social_media .fa-facebook,
+    .social_media .fa-instagram,
+    .social_media .fa-github {
+        font-size: 50px;
+    }
+
+    .container_mid {
+        width: 93%;
+        left: 2rem;
+        height: 83vh;
+    }
+
+    .container_right {
+        display: none;
+        z-index: 22222;
+        width: 89%;
+        background: none;
+        height: 65vh;
+        top: 94px;
+    }
+
+    .search {
+        display: none;
+    }
+
+    .search .fa-search {
+        background: #9797972e; 
+        padding: 20px; 
+        border-radius: 50%;
+        top: -52px;
+        left: 10px;
+    }
+
+    .tab_ui {
+        top: 63px;
+        left: 15px;
+    }
+
+    .title_Album {
+        display: none;
+    }
+
+    .list_music {
+        top: 50px;
+        height: 60vh;
+    }
+
+    .list_albumimg {
+        width: 305px;
+    }
+
+    .aaa {
+        top: 400px;
+        padding: 29px;
+    }
+
+    .aaa:hover {
+        top: 250px;
+    }
+
+    .fa-arrow-right {
+        right: 181px;
+    }
+
+    .fa-arrow-left {
+        left: 168px;
+    }
+
+    .imgAlbum {
+        top: 91px;
+    }
+
+    .SetList {
+        width: 41%;
+        left: 177px;
+        top: 152px;
+    }
+
+    .search input[type="text"] {
+        display: none;
+    }
+
+    .nav_main {
+        display: block;
+        font-size: 47px;
+    }
+
+    .fa-bars {
+        right: -790px;
+        top: 20px;
+        position: relative;
+    }
+
+    .fa-user {
+        top: 20px;
+        left: 30px;
+        position: absolute;
+    }
+
+    .container_mid-img {
+        width: 73%;
+        top: 110px;
+        left: 118px;
+    }
+
+    .mid_h2 {
+        top: 743px;
+        left: 60px;
+    }
+
+    .container_mid-title,
+    .control-list_item {
+        font-size:  44px;
+    }
+
+    .container_mid-control {
+        top: 79%;
+        left: 72px;
+    }
+
+    .control-list .size {
+        left: 190px;
+        font-size: 78px;
+        top: -21px;
+    }
+
+    #backsong {
+        position: absolute;
+        left: 187px;
+    }
+
+    #nextsong {
+        position: absolute;
+        right: 187px;
+    }
+
+    #clear1 {
+        position: absolute;
+        top: 20px;
+    }
+
+    #clear2 {
+        position: absolute;
+        top: 20px;
+    }
+
+    .container_mid .progress {
+        height: 10px;
+        left: 63px;
+    }
+}

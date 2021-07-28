@@ -119,6 +119,15 @@
     .container_left-info {
         top: 110px;
         left: 19px;
+        height: 23vh;
+    }
+
+    .song_body .day {
+        right: 12px;
+    }
+
+    .imgAlbum {
+        top: 2px;
     }
 
     .tab_ui {
@@ -129,7 +138,8 @@
 
     .SetList {
         margin-left: 26px;
-        top: -43px
+        top: -43px;
+        height: 58vh;
     }
 
     .social_media {
@@ -153,13 +163,12 @@
     }
 
     .aaa {
-        top: 125px;
+        top: 102px;
         position: absolute;
     }
 
     .aaa:hover {
-        top: 123px;
-        position: absolute;
+        top: 100px;
     }
 
     .fa-arrow-right {

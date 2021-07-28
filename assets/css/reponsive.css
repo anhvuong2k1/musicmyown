@@ -15,16 +15,17 @@
 
     .container {
         left: 0.9rem;
-        top: 3rem;
+        top: 5rem;
         width: 92%;
-        height: 82vh;
+        height: 75vh;
     }
 
     .container_mid {
         left: 11px;
         width: 308px;
-        height: 78vh;
+        height: 71vh;
         top: 12px;
+        position: relative;
     }
 
     .nav_main {
@@ -35,23 +36,27 @@
         position: absolute;
         left: 16px;
         top: 9px;
+        font-size: 17px;
     }
 
     .fa-bars {
         position: absolute;
         right: 16px;
         top: 10px;
+        font-size: 17px;
     }
 
     .container_mid-img {
-        width: 80%;
-        left: 31px;
-        top: 68px;
+        width: 64%;
+        left: 51px;
+        top: 65px;
+        position: absolute;
     }
 
     .mid_h2 {
         left: 19px;
-        top: 338px;
+        top: 298px;
+        position: absolute;
     }
 
     .container_left-logo {
@@ -63,23 +68,33 @@
     }
 
     .container_mid-title {
-        font-size: 20px;
+        font-size: 15px;
     }
 
     .container_mid-control {
         left: 23px;
-        top: 78%;
+        top: 76%;
+        position: absolute;
+    }
+
+    .control-list_item {
+        font-size: 17px;
+    }
+
+    .control-list .size {
+        font-size: 41px;
     }
 
     .container_mid .progress {
-        left: 22px;
-        bottom: 32px;
+        left: 24px;
+        bottom: 34px;
+        position: absolute;
     }
 
     .showin4,
     .showother {
         width: 308px;
-        height: 81vh;
+        height: 74vh;
         border-radius: 16px;
     }
 
@@ -96,7 +111,7 @@
         z-index: 222222;
         width: 330px;
         height: 64vh;
-        top: 82px;
+        top: 49px;
         left: -2px;
         background: none;
     }
@@ -107,7 +122,7 @@
     }
 
     .tab_ui {
-        top: 35px;
+        top: -1px;
         width: 94%;
         left: 39px;
     }
@@ -165,16 +180,17 @@
 
     .container {
         left: 0.9rem;
-        top: 6rem;
+        top: 3rem;
         width: 92%;
-        height: 70vh;
+        height: 85vh;
     }
 
     .container_mid {
         left: 11px;
         width: 322px;
-        height: 67vh;
+        height: 82vh;
         top: 9px;
+        position: relative;
     }
 
     .nav_main {
@@ -197,11 +213,21 @@
         width: 70%;
         left: 45px;
         top: 56px;
+        position: absolute;
     }
 
     .mid_h2 {
         left: 19px;
-        top: 294px;
+        top: 306px;
+        position: absolute;
+    }
+
+    .control-list_item {
+        font-size: 18px;
+    }
+
+    .control-list .size {
+        font-size: 48px;
     }
 
     .container_left-logo {
@@ -218,17 +244,19 @@
 
     .container_mid-control {
         left: 23px;
+        position: absolute;
     }
 
     .container_mid .progress {
         left: 22px;
         bottom: 29px;
+        position: absolute;
     }
 
     .showin4,
     .showother {
         width: 322px;
-        height: 70vh;
+        height: 85vh;
         border-radius: 16px;
     }
 
@@ -262,7 +290,7 @@
     }
 
     .list_music {
-        top: 2px;
+        top: 21px;
     }
     
     .SetList {
@@ -331,6 +359,7 @@
         width: 358px;
         height: 83vh;
         top: 11px;
+        position: relative;
     }
 
     .nav_main {
@@ -350,14 +379,16 @@
     }
 
     .container_mid-img {
-        width: 80%;
-        left: 37px;
-        top: 68px;
+        position: absolute;
+        width: 66%;
+        left: 58px;
+        top: 76px;
     }
 
     .mid_h2 {
+        position: absolute;
         left: 21px;
-        top: 400px;
+        top: 347px;
     }
 
     .container_left-logo {
@@ -373,13 +404,22 @@
     }
 
     .container_mid-control {
-        left: 26px;
-        top: 77%;
+        left: 24px;
+        top: 70%;
     }
 
     .container_mid .progress {
         left: 26px;
         bottom: 49px;
+    }
+
+    .control-list_item {
+        font-size: 20px;
+    }
+
+    .control-list .size {
+        font-size: 47px;
+        bottom: 83px;
     }
 
     .showin4,
@@ -519,6 +559,7 @@
         width: 91%;
         left: 2rem;
         height: 82vh;
+        position: relative;
     }
 
     .container_right {
@@ -595,9 +636,9 @@
     }
 
     .fa-bars {
-        right: -555px;
+        right: 22px;
         top: 20px;
-        position: relative;
+        position: absolute;
     }
 
     .fa-user {
@@ -610,11 +651,13 @@
         width: 73%;
         top: 77px;
         left: 89px;
+        position: absolute;
     }
 
     .mid_h2 {
-        top: 528px;
+        top: 589px;
         left: 38px;
+        position: absolute;
     }
 
     .container_mid-title,
@@ -625,6 +668,7 @@
     .container_mid-control {
         top: 79%;
         left: 41px;
+        position: absolute;
     }
 
     .control-list .size {

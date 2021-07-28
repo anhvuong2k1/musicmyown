@@ -330,13 +330,6 @@ body {
     margin-top: -4px;
 }
 
-.fa-redo:hover,
-.fa-fast-backward:hover,
-.fa-fast-forward:hover,
-.fa-random:hover  {
-    background:rgba(3, 3, 3, 0.096);
-}
-
 .control-list .btn.ative {
     color: rgb(211, 33, 33)
 }

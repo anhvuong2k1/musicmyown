@@ -55,7 +55,7 @@
 
     .mid_h2 {
         left: 19px;
-        top: 298px;
+        top: 271px;
         position: absolute;
     }
 
@@ -117,7 +117,7 @@
     }
 
     .container_left-info {
-        top: 122px;
+        top: 110px;
         left: 19px;
     }
 
@@ -129,6 +129,7 @@
 
     .SetList {
         margin-left: 26px;
+        top: -43px
     }
 
     .social_media {
@@ -152,11 +153,13 @@
     }
 
     .aaa {
-        top: 165px;
+        top: 125px;
+        position: absolute;
     }
 
     .aaa:hover {
-        top: 163px;
+        top: 123px;
+        position: absolute;
     }
 
     .fa-arrow-right {
@@ -218,7 +221,7 @@
 
     .mid_h2 {
         left: 19px;
-        top: 306px;
+        top: 296px;
         position: absolute;
     }
 
@@ -388,7 +391,7 @@
     .mid_h2 {
         position: absolute;
         left: 21px;
-        top: 347px;
+        top: 335px;
     }
 
     .container_left-logo {
@@ -479,15 +482,20 @@
     }
 
     .aaa {
-        top: 195px;
+        top: 163px;
     }
 
     .aaa:hover {
-        top: 193px;
+        top: 161px;
     }
 
     .title_Album {
         display: none;
+    }
+
+    .SetList {
+        top: -30px;
+        position: absolute;
     }
 }
  

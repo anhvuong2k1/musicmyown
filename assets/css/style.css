@@ -1,11 +1,55 @@
 /* backgrond */
 body {   
-    background: linear-gradient(to right,#66b2ff, #afa9ffe5), no-repeat;
     background-size: cover;
     width: 100%;
-    min-height: 100vh;
+    height: 100vh;
     position: relative;
     overflow: hidden;
+    display: grid;
+    place-content: center;
+    grid-template-areas: "body";
+}
+
+body::before,
+body::after {
+    --size: 150vmax;
+    --duration: 8s;
+    
+    content: "";
+    grid-area: body;
+    width: var(--size);
+    height: var(--size);
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+    body::before {
+    animation-name: rotate;
+    animation-duration: var(--duration);
+    background: linear-gradient(to left, var(--palette));
+}
+  
+body::after {
+    animation-name: rotate, fade;
+    animation-duration: calc(var(--duration) / 2), var(--duration);
+    background: linear-gradient(to right, var(--palette));
+}
+  
+@keyframes rotate {
+    to {
+      transform: rotate(1turn);
+    }
+}
+  
+@keyframes fade {
+    50% {
+      opacity: 0;
+    }
+}
+  
+body {
+    --rotate: 0deg;
+    --palette: #685ae0, #a59cf0, #a29bfe, #b2aee8, #79b2ec, #549de6, #0984e3, #075291;
 }
 /* ---------------------------------------- */
 /* hr */
@@ -41,6 +85,7 @@ body {
     align-items: center;
     border-radius: 10px;
     cursor: pointer;
+    z-index: 6;
 }
 
 .size .fa-pause-circle {

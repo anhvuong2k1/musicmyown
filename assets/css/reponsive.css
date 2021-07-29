@@ -9,10 +9,6 @@
 
 /* samsung all */
 @media only screen and (max-width: 360px) {
-    .hr3 {
-        display: none;
-    }
-
     .container {
         left: 0.9rem;
         top: 5rem;
@@ -186,10 +182,6 @@
 
 /* ip 6/7/8 */
 @media only screen and (min-width: 361px) and (max-width: 375px) {
-    .hr3 {
-        display: none;
-    }
-
     .container {
         left: 0.9rem;
         top: 3rem;
@@ -354,12 +346,7 @@
 }
 
 /* ip 6/7/8/plus */
-@media only screen and (min-width: 376px) and (max-width: 414px) { 
-
-    .hr3 {
-        display: none;
-    }
-
+@media only screen and (min-width: 376px) and (max-width: 414px) {
     .container {
         left: 17px;
         top: 3rem;
@@ -511,12 +498,6 @@
  
 /* ipad */
 @media only screen and (min-width: 415px) and (max-width: 768px) {
-    .hr1,
-    .hr2,
-    .hr3 {
-        display: none;
-    }
-
     .container {
         left: 32px;
         top: 4rem;
@@ -718,12 +699,6 @@
 
 /* ipad pro */
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
-    .hr1,
-    .hr2,
-    .hr3 {
-        display: none;
-    }
-
     .container {
         left: 44px;
         top: 5rem;
@@ -928,5 +903,194 @@
     .container_mid .progress {
         height: 10px;
         left: 63px;
+    }
+}
+
+/* lap 1440px */
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+    .container {
+        height: 53vh;
+        top: 289px;
+    }
+
+    .container_left {
+        height: 49vh;
+    }
+
+    .container_mid {
+        height: 49vh;
+        left: 23rem;
+    }
+
+    .container_right {
+        height: 49vh;
+    }
+
+    .search {
+        width: 89%;
+        height: 4vh;
+    }
+
+    .tab_ui {
+        top: 79px;
+        height: 40vh;
+    }
+
+    .title_Album {
+        display: none;
+    }
+
+    .SetList {
+        top: -31px;
+    }
+
+    .aaa {
+        top: 172px;
+    }
+
+    .aaa:hover {
+        top: 170px;
+    }
+
+    .fa-arrow-right {
+        right: 5px;
+    }
+
+    .fa-arrow-left {
+        left: 21px;
+    }
+
+    .container_mid-img {
+        width: 64%;
+        left: 7;
+    }
+}
+
+/* 4k - 2560px */ 
+@media only screen and (min-width: 2560px) {
+    .container {
+        top: 120px;
+        left: 273px;
+    }
+
+    .container_left {
+        left: 37px;
+        top: 36px;
+    }
+
+    .container_mid {
+        left: 40.6rem;
+        top: 36px;
+    }
+
+    .container_right {
+        right: 38px;
+        top: 36px;
+    }
+
+    .container_left-info {
+        top: 329px;
+        left: 32px
+    }
+
+    .info_title {
+        font-size: 34px;
+    }
+    
+    .info_story {
+        font-size: 27px;
+    }
+
+    .social_media {
+        width: 79%;
+    }
+
+    .social_media a i {
+        font-size: 39px;
+    }
+
+    .container_mid-img {
+        width: 62%;
+        top: 73px;
+        left: 137px;
+    }
+
+    .mid_h2 {
+        top: 35rem;
+        left: 50px;
+    }
+
+    .container_mid-title {
+        font-size: 34px;
+    }
+
+    .container_mid-control {
+        width: 84%;
+        left: 61px;
+    }
+
+    .control-list_item {
+        font-size: 35px;
+    }
+
+    .control-list .size {
+        font-size: 78px;
+    }
+
+    .container_mid .progress {
+        left: 53px;
+        height: 9px;
+    }
+
+    .search {
+        left: 46px;
+        width: 86%;
+    }
+
+    .tab_ui {
+        top: 145px;
+        left: 33px;
+    }
+
+    .title_Album {
+        display: none;
+    }
+
+    .SetList {
+        top: 22px;
+        left: 58px;
+        width: 62%;
+    }
+
+    .list_albumimg {
+        width: 305px;
+        height: 452px;
+    }
+
+    .aaa {
+        top: 265px;
+    }
+
+    .aaa:hover {
+        top: 263px;
+        padding: 23px;
+    }
+
+    .fa-arrow-right {
+        right: 69px;
+        padding: 20px;
+    }
+
+    .fa-arrow-left {
+        left: 63px;
+        padding: 20px;
+    }
+
+    .list_years .years {
+        font-size: 24px;
+    }
+
+    .song_body .day {
+        right: 6px;
     }
 }

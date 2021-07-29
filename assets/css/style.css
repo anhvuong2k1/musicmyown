@@ -52,28 +52,6 @@ body {
     --palette: #685ae0, #a59cf0, #a29bfe, #b2aee8, #79b2ec, #549de6, #0984e3, #075291;
 }
 /* ---------------------------------------- */
-/* hr */
-.hr1 {
-    height: 60vh;
-    top: 75px;
-    left: 412px;
-    border-left: 1px solid #9a9a9a8a;
-}
-
-.hr2 {
-    height: 60vh;
-    top: 75px;
-    right: 412px;
-    border-left: 1px solid #9a9a9a8a;
-}
-
-.hr3 {
-    border-bottom: 1px solid #f7f7f77d;
-    width: 37%;
-    top: 63px;
-    left: 111px;
-}
-/* -------------------------------------- */
 .container {
     background: #ffffffe6;
     box-shadow: 0 -1px 26px 0px #33333340;

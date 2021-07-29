@@ -257,6 +257,7 @@
     .container_mid-control {
         left: 23px;
         position: absolute;
+        top: 80%;
     }
 
     .container_mid .progress {

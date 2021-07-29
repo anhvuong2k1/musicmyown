@@ -194,7 +194,7 @@ body {
 }
 
 .social_media i:hover {
-    font-size: 31px;
+    margin-top: -4px;
 }
 
 .social_media .fa-facebook {
